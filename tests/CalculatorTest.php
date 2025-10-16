@@ -13,4 +13,5 @@ final class CalculatorTest extends TestCase
         
     }
 }
+echo "Hello, World!";
 ?>
