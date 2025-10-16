@@ -7,4 +7,4 @@ cache:
 install:
   - composer install --no-interaction --prefer-dist
 script:
-- print "hello world"
+- php hello.php
