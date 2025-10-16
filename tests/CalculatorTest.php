@@ -10,6 +10,6 @@ final class CalculatorTest extends TestCase
     {
         $calc = new Calculator();
         $this->assertSame(5, $calc->add(2, 3));
-        // Para forzar un fallo en la demo, cambia el 5 por 6 y haz push.
+        
     }
 }
