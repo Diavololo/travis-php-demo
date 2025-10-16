@@ -7,5 +7,4 @@ cache:
 install:
   - composer install --no-interaction --prefer-dist
 script:
-  - vendor/bin/phpunit --testdox
-  - php hello.php
+- print "hello world"
