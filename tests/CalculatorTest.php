@@ -9,7 +9,7 @@ final class CalculatorTest extends TestCase
     public function testAdd(): void
     {
         $calc = new Calculator();
-        $this->assertSame(5, $calc->add(2, 3));
+        $this->assertSame(6, $calc->add(2, 3);
         
     }
 }
