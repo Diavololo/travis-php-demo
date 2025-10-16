@@ -1,0 +1,10 @@
+language: php
+php:
+  - "8.2"
+cache:
+  directories:
+    - $HOME/.composer/cache
+install:
+  - composer install --no-interaction --prefer-dist
+script:
+  - vendor/bin/phpunit --testdox
